@@ -50,10 +50,9 @@ public class Students {
         this.grade = grade;
     }
 
-    public void printInfo(){
+    public void printInfo() {
         System.out.println("First name: " + firstName);
-        System.out.println("Last name: " + lastName );
-        System.out.println("Facultary is - " + facultary);
+        System.out.println("Last name: " + lastName);
         System.out.println("Grade is - " + grade);
     }
 }

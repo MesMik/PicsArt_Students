@@ -22,9 +22,10 @@ public class Studentservice {
 
     public void cucakQA(Students[] students) {
         for (Students s : students) {
-            if (s.getFacultary() == "QA") {
-                System.out.println(s.getFirstName() + s.getLastName() + "-" + s.getGrade());
-            }
+            if (s.getFacultary().contains("QA")) {
+                System.out.println("****************");
+                System.out.println(s.getFirstName() + " " + s.getLastName() + " - " + s.getGrade());
+            } else s.printInfo();
         }
     }
 }
